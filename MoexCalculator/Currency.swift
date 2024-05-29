@@ -10,7 +10,7 @@ import Foundation
 enum Currency: String, CaseIterable, Identifiable {
     
     // Коды валют
-    case RUR
+    case RUB
     case CNY
     case EUR
     case USD
@@ -19,7 +19,7 @@ enum Currency: String, CaseIterable, Identifiable {
 
     var flag: String {
         switch self {
-        case .RUR: return "🇷🇺"
+        case .RUB: return "🇷🇺"
         case .CNY: return "🇨🇳"
         case .EUR: return "🇪🇺"
         case .USD: return "🇺🇸"

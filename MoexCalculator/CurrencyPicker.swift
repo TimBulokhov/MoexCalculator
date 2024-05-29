@@ -30,7 +30,7 @@ struct CurrencyPicker: View {
 struct CurrencyPicker_Previews: PreviewProvider {
     
     static let currencyBinding = Binding<Currency>(
-        get: { .RUR },
+        get: { .RUB },
         set: { _ = $0 }
     )
     
